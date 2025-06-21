@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prociono&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: "Montserrat", sans-serif;
+}
+header{
+    background-color: #04ad04;
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    height: 140px;
+}
+#logo{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+}
+header h1{
+    margin: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 60px;
+    margin-left: 160px;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#section{
+height: 80vh;
+background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0)), url(img/black.jpg);
+width: 100%;
+background-size: cover;
+bottom: 0;
+left: 0;
+position: relative;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: -1;
+text-align: center;
+}
+#word{
+    align-items: center;
+    height: 100px;
+    width: 700px;
+    gap: 40px;
+    margin-top: 200px;
+}
+#word p{
+    margin-top: 10px;
+}
+#word button{
+    margin-top: 20px;
+    height: 50px;
+    border: none;
+    color: white;
+    width: 100px;
+}
+#first{
+background-color: rgba(4, 92, 4, 0.829);
+}
+#son{
+    background-color: hsl(120, 96%, 44%);
+    color: white;
+    border: none;
+}
+.section{
+    height: 170vh;
+    width: 100%;
+}
+.coloring{
+    color: hwb(120 3% 59%);
+}
+.first-son{
+height: 50vh;
+width: 100%;
+display: flex;
+}
+.second-son{
+height: 50vh;
+width: 100%;
+display: flex;
+}
+.third-son{
+height: 50vh;
+width: 100%;
+display: flex;
+}
+.son{
+    height: 45vh;
+    width: 45%;
+    margin: auto;
+}
+.parent{
+    height: 40vh;
+    width: 40%;
+    margin: auto;
+}
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+        align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.quick-links{
+    width: 80%;
+    margin: auto;
+align-items: center;
+display: flex;
+gap: 50px;
+color: white;
+}
+.link{
+    height: 280px;
+    width: 40%;
+}
+.first-link{
+    height: 280px;
+margin-left: 50px;
+    width: 30%;
+}
+.second-link{
+height: 280px;
+    width: 40%;
+}
+.second-link p{
+    text-decoration: underline;
+    margin-top: 5px;
+}
+.first-link p{
+    margin-top: 5px;
+}
+.link p{
+    margin-top: 15px;
+}
+#copyright{
+    height: 40px;
+    width: 100%;
+    background-color: gray;
+}
