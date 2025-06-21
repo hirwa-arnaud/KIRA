@@ -155,3 +155,38 @@ height: 280px;
  align-items: center;
     color: white;
 }
+.content{
+    height: 300px;
+    width: 100%;
+    background-color: #353535;
+}
+
+.phone{
+    height: 120px;
+    width: 300px;
+    background-color: red;
+}
+.email{
+    height: 120px;
+    width: 300px;
+    background-color: red;
+}
+#header{
+color: white;
+    text-align: center;
+    margin: auto;
+}
+.location{
+    height: 120px;
+    width: 300px;
+    background-color: red;
+}
+#alignment{
+    height: 150px;
+    width: 1000px;
+    display: flex;
+    background-color: chocolate;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
