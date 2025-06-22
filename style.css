@@ -54,6 +54,10 @@ text-align: center;
     gap: 40px;
     margin-top: 200px;
 }
+.words{
+    font-weight: bold;
+    font-size: 20px;
+}
 #word p{
     margin-top: 10px;
 }
@@ -159,34 +163,64 @@ height: 280px;
     height: 300px;
     width: 100%;
     background-color: #353535;
+    display: block;
 }
 
 .phone{
     height: 120px;
     width: 300px;
-    background-color: red;
+        background-color: hsl(0, 0%, 35%);
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    display: flex;
 }
 .email{
     height: 120px;
     width: 300px;
-    background-color: red;
-}
-#header{
-color: white;
-    text-align: center;
-    margin: auto;
+    display: flex;
+        background-color: hsl(0, 0%, 35%);
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
 }
 .location{
     height: 120px;
     width: 300px;
-    background-color: red;
+    display: flex;
+    background-color: hsl(0, 0%, 35%);
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
 }
-#alignment{
-    height: 150px;
+.cj{
+    margin: auto;
+    height: 60px;
+    width: 400px;
+}
+.clipse{
+    margin: auto;
+    height: 160px;
     width: 1000px;
     display: flex;
-    background-color: chocolate;
     gap: 50px;
-    margin-top: 50px;
-    margin-left: 200px;
+}
+.future{
+     margin: auto;
+    height: 60px;
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+#form{
+    height: 110vh;
+    width: 100%;
+    background-color: red;
+}
+form{
+    height: 80vh;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: maroon;
 }
