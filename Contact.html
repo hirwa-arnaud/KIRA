@@ -34,17 +34,32 @@
 </div>
 <div id="form">
    <div class="cj"></div>
-<div class="future"><h2>Love to hear from you,<br><span class="coloring">Let's get in touch!</span> </h2></div>
+<div class="future"><h2 style="color: black;">Love to hear from you,<br><span class="coloring">Let's get in touch!</span> </h2></div>
     <form>
-        <label>Your names</label>
-        <input placeholder="Type your full name">
-        <label>Your email</label>
-        <input placeholder="Type your Email">
-        <label>Subject</label>
-        <input placeholder="Type your subject">
-        <label>Your message</label>
-        <input placeholder="Your message">
-        <button>Send message</button>
+<div class="form-container">
+        <form>
+            <div class="two-column-group">
+                <div class="form-group">
+                    <label for="your-names">Your names</label>
+                    <input type="text" id="your-names" placeholder="Type your full names">
+                </div>
+                <div class="form-group">
+                    <label for="your-email">Your email</label>
+                    <input type="email" id="your-email" placeholder="Type your email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Type subject">
+            </div>
+
+            <div class="form-group">
+                <label for="your-message">Your message</label>
+                <textarea id="your-message" placeholder="Write your message"></textarea>
+            </div>
+
+            <button type="submit" class="send-button">Send message</button>
     </form>
 </div>
     </main> 
