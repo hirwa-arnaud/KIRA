@@ -250,7 +250,7 @@ form{
             padding: 12px;
             border: 1px solid #ddd;
             border-radius: 5px;
-            box-sizing: border-box; /* Ensures padding doesn't add to the total width */
+            box-sizing: border-box;
             font-size: 16px;
         }
 
@@ -261,7 +261,7 @@ form{
         }
 
         .form-group textarea {
-            resize: vertical; /* Allows vertical resizing */
+            resize: vertical;
             min-height: 120px;
         }
 
@@ -275,7 +275,7 @@ form{
         }
 
         .send-button {
-            background-color: #28a745; /* Green color */
+            background-color: #28a745;
             color: #fff;
             padding: 12px 25px;
             border: none;
@@ -286,5 +286,5 @@ form{
         }
 
         .send-button:hover {
-            background-color: #218838; /* Darker green on hover */
+            background-color: #218838;
         }
