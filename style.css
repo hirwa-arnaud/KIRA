@@ -151,7 +151,6 @@ height: 280px;
     height: 60px;
     width: 100%;
     background-color: #353535;
-<<<<<<< HEAD
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,8 +158,6 @@ height: 280px;
 #copyright p{
  align-items: center;
     color: white;
-=======
->>>>>>> e0a470b51fa050e0d8f0df937878985ec6d4a412
 }
 .content{
     height: 300px;
@@ -253,11 +250,7 @@ form{
             padding: 12px;
             border: 1px solid #ddd;
             border-radius: 5px;
-<<<<<<< HEAD
             box-sizing: border-box;
-=======
-            box-sizing: border-box; /* Ensures padding doesn't add to the total width */
->>>>>>> e0a470b51fa050e0d8f0df937878985ec6d4a412
             font-size: 16px;
         }
 
@@ -268,11 +261,7 @@ form{
         }
 
         .form-group textarea {
-<<<<<<< HEAD
             resize: vertical;
-=======
-            resize: vertical; /* Allows vertical resizing */
->>>>>>> e0a470b51fa050e0d8f0df937878985ec6d4a412
             min-height: 120px;
         }
 
@@ -286,11 +275,7 @@ form{
         }
 
         .send-button {
-<<<<<<< HEAD
             background-color: #28a745;
-=======
-            background-color: #28a745; /* Green color */
->>>>>>> e0a470b51fa050e0d8f0df937878985ec6d4a412
             color: #fff;
             padding: 12px 25px;
             border: none;
@@ -301,10 +286,5 @@ form{
         }
 
         .send-button:hover {
-<<<<<<< HEAD
             background-color: #218838;
         }
-=======
-            background-color: #218838; /* Darker green on hover */
-        }
->>>>>>> e0a470b51fa050e0d8f0df937878985ec6d4a412
